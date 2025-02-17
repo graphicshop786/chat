@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  padding: 1rem 0;
+  background: rgb(63,94,251);
+  background: -moz-linear-gradient(101deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: -webkit-linear-gradient(101deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: linear-gradient(101deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f5efb',endColorstr='#fc466b',GradientType=1);
+}
+
+.clear-button, .send-button {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.clear-button {
+  background-color: #d62828;
+  border-color: #a81f1f;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-bottom-width: 4px;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: auto;
+}
+
+.clear-button:hover {
+  background-color: #f77f00;
+  transform: translateY(-2px);
+}
+
+.send-button {
+  background-color: #003049;
+  border-color: #002033;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-bottom-width: 4px;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: auto;
+}
+
+.send-button:hover {
+  background-color: #6391ad;
+  transform: translateY(-2px);
+}
+
+input#messageInput {
+  transition: box-shadow 0.3s;
+}
+
+input#messageInput:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Story Generator Styles */
+#story-form select, #story-form input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+#story-form label {
+  margin-top: 0.5rem;
+}
+
+.quantity-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-input button {
+  background-color: #ccc;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.quantity-input input {
+  text-align: center;
+  width: 3rem;
+  margin: 0 0.5rem;
+}
+
+#spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttons button {
+  margin: 0.5rem;
+}
